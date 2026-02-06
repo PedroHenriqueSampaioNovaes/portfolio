@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="./output.css" rel="stylesheet">
+  <title>Pedro Henrique - Desenvolvedor Front-End</title>
+</head>
+
+<body class="font-primary bg-cinza-900">
+  <header class="container flex justify-center mt-[30px]">
+    <nav class="bg-cinza-600 text-roxo-200 font-medium flex items-center justify-center gap-x-10 gap-y-4 flex-wrap py-4 px-3 rounded-4xl">
+      <ul class="flex items-center gap-x-5 md:gap-10 *:*:hover:text-white *:*:transition">
+        <li><a href="#sobre">sobre mim</a></li>
+        <li><a href="#projetos">projetos</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+
+      <ul class="flex items-center gap-4">
+        <li>
+          <a href="https://github.com/PedroHenriqueSampaioNovaes" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-roxo-200 hover:fill-white transition">
+              <path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 14.42 2.87 18.17 6.84 19.5C7.34 19.58 7.5 19.27 7.5 19V17.31C4.73 17.91 4.14 15.97 4.14 15.97C3.68 14.81 3.03 14.5 3.03 14.5C2.12 13.88 3.1 13.9 3.1 13.9C4.1 13.97 4.63 14.93 4.63 14.93C5.5 16.45 6.97 16 7.54 15.76C7.63 15.11 7.89 14.67 8.17 14.42C5.95 14.17 3.62 13.31 3.62 9.5C3.62 8.39 4 7.5 4.65 6.79C4.55 6.54 4.2 5.5 4.75 4.15C4.75 4.15 5.59 3.88 7.5 5.17C8.29 4.95 9.15 4.84 10 4.84C10.85 4.84 11.71 4.95 12.5 5.17C14.41 3.88 15.25 4.15 15.25 4.15C15.8 5.5 15.45 6.54 15.35 6.79C16 7.5 16.38 8.39 16.38 9.5C16.38 13.32 14.04 14.16 11.81 14.41C12.17 14.72 12.5 15.33 12.5 16.26V19C12.5 19.27 12.66 19.59 13.17 19.5C17.14 18.16 20 14.42 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/pedrohsampaionovaes/" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-roxo-200 hover:fill-white transition">
+              <path d="M16 0C16.5304 0 17.0391 0.210714 17.4142 0.585786C17.7893 0.960859 18 1.46957 18 2V16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18H2C1.46957 18 0.960859 17.7893 0.585786 17.4142C0.210714 17.0391 0 16.5304 0 16V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0H16ZM15.5 15.5V10.2C15.5 9.33539 15.1565 8.5062 14.5452 7.89483C13.9338 7.28346 13.1046 6.94 12.24 6.94C11.39 6.94 10.4 7.46 9.92 8.24V7.13H7.13V15.5H9.92V10.57C9.92 9.8 10.54 9.17 11.31 9.17C11.6813 9.17 12.0374 9.3175 12.2999 9.58005C12.5625 9.8426 12.71 10.1987 12.71 10.57V15.5H15.5ZM3.88 5.56C4.32556 5.56 4.75288 5.383 5.06794 5.06794C5.383 4.75288 5.56 4.32556 5.56 3.88C5.56 2.95 4.81 2.19 3.88 2.19C3.43178 2.19 3.00193 2.36805 2.68499 2.68499C2.36805 3.00193 2.19 3.43178 2.19 3.88C2.19 4.81 2.95 5.56 3.88 5.56ZM5.27 15.5V7.13H2.5V15.5H5.27Z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="overflow-x-hidden">
+    <section id="sobre" class="container mt-24 md:mt-40 flex max-md:flex-col-reverse items-center justify-between max-md:gap-9">
+      <div class="max-md:mt-5 max-md:text-center">
+        <h1 class="text-white font-medium text-3xl md:text-6xl mb-6 md:mb-7">Olá! Eu sou o Pedro</h1>
+        <p class="text-gray-400 font-light text-balance max-w-lg leading-8">Sou desenvolvedor frontend com formação em desenvolvimento de sistemas e experiência em projetos pessoais. Tenho conhecimento sólido em diversas ferramentas, sendo as principais: Typescript e Next.js. Gosto de criar interfaces modernas, responsivas e com foco na experiência do usuário. Também possuo conhecimento em testes automatizados e boas práticas de desenvolvimento.</p>
+        <div class="flex max-md:flex-col items-center max-md:justify-center gap-7 mt-10 font-secondary">
+          <a href="./curriculo/curriculo.docx" download="dev-PedroHenrique-frontend" class="bg-white py-3 px-10 rounded-4xl font-bold 
+          hover:bg-cinza-200 transition md:max-lg:text-center">Download Currículo</a>
+          <a href="#projetos" class="py-3 px-10 rounded-4xl text-roxo-200 font-medium hover:text-white transition md:max-lg:text-center">Veja projetos</a>
+        </div>
+      </div>
+
+      <img src="./img/photo/rosto.png" alt="" id="mask" class="max-md:w-32">
+    </section>
+
+    <section id="projetos" class="my-24 lg:py-30 lg:mt-40 relative">
+      <svg width="613" height="576" viewBox="0 0 613 576" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-0 left-1/2 lg:left-0 max-lg:-translate-x-1/2 -z-10 lg:ml-6 blur-[200px]">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M365.955 0.036721C453.505 -1.28874 548.009 33.2457 594.744 107.28C637.172 174.492 594.569 258.291 578.059 336.038C566.427 390.817 551.769 442.773 514.604 484.668C474.59 529.775 425.979 569.354 365.955 575.137C300.528 581.44 240.599 552.363 185.607 516.363C110.728 467.344 9.92558 425.052 0.716837 336.038C-8.70247 244.989 76.6221 176.081 143.992 114.105C207.633 55.5581 279.485 1.34583 365.955 0.036721Z" fill="#202020" />
+      </svg>
+
+      <div class="container flex max-lg:flex-col lg:items-center pt-24 pb-28">
+        <div class="shrink-0 max-lg:mb-14 lg:max-w-lg max-lg:text-center">
+          <h2 class="text-white text-5xl md:text-7xl font-bold mb-5">Projetos</h2>
+          <p class="font-medium text-cinza-400 text-balance">desenvolvidos usando desde um simples html, css e javascript, até o mais popular ecossistema frontend</p>
+        </div>
+
+        <div id="slide-wrapper-controls">
+          <div id="slide-wrapper" class="overflow-hidden">
+            <ul id="slide" class="relative flex gap-7 lg:gap-10 *:shrink-0 select-none">
+              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="./img/projects/bioreino.png" alt="Bioreino" class="object-cover w-full min-h-full h-full pointer-events-none">
+
+                <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
+                  <h3 class="text-white text-xl font-bold">Bioreino</h3>
+                  <button class="cursor-pointer text-roxo-200 flex items-center gap-2" data-dialog-target="projects" data-dialog-item-target="project-1">
+                    Sobre
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b292ff">
+                      <path d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                    </svg>
+                  </button>
+
+                  <!-- Datas for the dialog -->
+                  <div class="hidden" data-dialog-item-id="project-1">
+                    <img src="./img/projects/bioreino.png" alt="Bioreino" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+
+                    <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
+                      Plataforma de cursos voltados à biologia. Possui apresentação do que é a Bioreino; Login; Esqueceu a Senha; Sistema de envio de e-mail; Domínio próprio (bioreino.com) e (bioreino.com.br); Cadastro com Planos de assinatura (scholar e professional) com sistema de pagamento integrado e que libera acesso a determinados cursos; Dashboard para selecionar o curso que deseja assistir, além de ter um lembrete da última aula assistida.
+                    </p>
+
+                    <h4 class="font-secondary text-2xl mb-3">Tecnologias usadas:</h4>
+                    <div class="mb-10 max-w-md flex flex-wrap justify-center gap-3 text-black *:bg-roxo-200 *:px-2.5 *:py-1 *:rounded-full *:font-medium *:text-xs lg:*:text-sm">
+                      <span>React</span>
+                      <span>Next JS</span>
+                      <span>TypeScript</span>
+                      <span>Jest</span>
+                      <span>React Testing Library</span>
+                      <span>Base UI</span>
+                      <span>Stripe</span>
+                      <span>CSS Modules</span>
+                      <span>Zod</span>
+                      <span>Node JS</span>
+                      <span>MongoDB</span>
+                      <span>JWT</span>
+                      <span>Express</span>
+                      <span>Resend</span>
+                      <span>Vercel</span>
+                    </div>
+
+                    <div class="flex items-center gap-8 font-secondary">
+                      <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
+                      <a href="https://www.bioreino.com.br" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="./img/projects/adopt-a-pet.png" alt="Adopt a Pet" class="object-cover w-full min-h-full h-full pointer-events-none">
+
+                <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
+                  <h3 class="text-white text-xl font-bold">Adopt a Pet</h3>
+                  <button class="cursor-pointer text-roxo-200 flex items-center gap-2" data-dialog-target="projects" data-dialog-item-target="project-4">
+                    Sobre
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b292ff">
+                      <path d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                    </svg>
+                  </button>
+
+                  <!-- Datas for the dialog -->
+                  <div class="hidden" data-dialog-item-id="project-4">
+                    <img src="./img/projects/adopt-a-pet.png" alt="Adopt a Pet" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+
+                    <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
+                      Adopt a Pet é um projeto pessoal que funciona como um hub de adoção onde usuários podem cadastrar animais, gerenciar seus perfis e explorar um feed interativo de pets disponíveis. O sistema conta com fluxos de autenticação, upload de imagens e um painel de controle personalizado para cada usuário, além de um sistema de rolagem infinita usando cursor-based pagination.
+                    </p>
+
+                    <h4 class="font-secondary text-2xl mb-3">Tecnologias usadas:</h4>
+                    <div class="mb-10 max-w-md flex flex-wrap justify-center gap-3 text-black *:bg-roxo-200 *:px-2.5 *:py-1 *:rounded-full *:font-medium *:text-xs lg:*:text-sm">
+                      <span>React</span>
+                      <span>Next JS</span>
+                      <span>Tailwind</span>
+                      <span>TypeScript</span>
+                      <span>React Hook Form</span>
+                      <span>Zod</span>
+                      <span>Jest</span>
+                      <span>React Testing Library</span>
+                      <span>JWT</span>
+                      <span>Base UI</span>
+                      <span>Cloudinary (hospedagem de imagens)</span>
+                      <span>Node</span>
+                      <span>Express</span>
+                      <span>MongoDB</span>
+                      <span>Mongoose</span>
+                    </div>
+
+                    <div class="flex items-center gap-8 font-secondary">
+                      <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
+                      <a href="https://petshop-web-five.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="./img/projects/barberpro.png" alt="BarberPRO" class="object-cover w-full min-h-full h-full pointer-events-none">
+
+                <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
+                  <h3 class="text-white text-xl font-bold">Barber PRO</h3>
+                  <button class="cursor-pointer text-roxo-200 flex items-center gap-2" data-dialog-target="projects" data-dialog-item-target="project-2">
+                    Sobre
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b292ff">
+                      <path d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                    </svg>
+                  </button>
+
+                  <!-- Datas for the dialog -->
+                  <div class="hidden" data-dialog-item-id="project-2">
+                    <img src="./img/projects/barberpro.png" alt="Bioreino" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+
+                    <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
+                      Sistema web completo para barbearias, desde cadastro da barbearia, login, sistema de agendamento de cliente, cadastro de barbeiros, agenda de cortes, sistema de assinatura para barbearias com plano gratuito e plano pago que libera funcionalidades.
+                    </p>
+
+                    <h4 class="font-secondary text-2xl mb-3">Tecnologias usadas:</h4>
+                    <div class="mb-10 max-w-md flex flex-wrap justify-center gap-3 text-black *:bg-roxo-200 *:px-2.5 *:py-1 *:rounded-full *:font-medium *:text-xs lg:*:text-sm">
+                      <span>React</span>
+                      <span>Next JS</span>
+                      <span>Vercel</span>
+                      <span>TypeScript</span>
+                      <span>Stripe</span>
+                      <span>Prisma</span>
+                      <span>Postgresql</span>
+                      <span>Node JS</span>
+                      <span>Express</span>
+                      <span>JWT</span>
+                    </div>
+
+                    <div class="flex items-center gap-8 font-secondary">
+                      <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
+                      <a href="https://sistema-barbearia-web-roan.vercel.app/login" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="./img/projects/tatuador.png" alt="Sandro Luz Tattoo Shop" class="object-cover w-full min-h-full h-full pointer-events-none">
+
+                <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
+                  <h3 class="text-white text-xl font-bold">Sandro Luz Tattoo Shop</h3>
+                  <button class="cursor-pointer text-roxo-200 flex items-center gap-2" data-dialog-target="projects" data-dialog-item-target="project-3">
+                    Sobre
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b292ff">
+                      <path d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                    </svg>
+                  </button>
+
+                  <!-- Datas for the dialog -->
+                  <div class="hidden" data-dialog-item-id="project-3">
+                    <img src="./img/projects/tatuador.png" alt="Sandro Luz Tattoo Shop" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+
+                    <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
+                      Este projeto web serve como a vitrine digital para o tatuador fictício Sandro Luz. A aplicação foi construída com foco em design visual e performance, utilizando as tecnologias mais recentes do ecossistema React. A interface apresenta um layout sofisticado, destacando a arte e a identidade da marca, além de fornecer acesso fácil aos serviços e informações de contato
+                    </p>
+
+                    <h4 class="font-secondary text-2xl mb-3">Tecnologias usadas:</h4>
+                    <div class="mb-10 max-w-md flex flex-wrap justify-center gap-3 text-black *:bg-roxo-200 *:px-2.5 *:py-1 *:rounded-full *:font-medium *:text-xs lg:*:text-sm">
+                      <span>React</span>
+                      <span>Next JS</span>
+                      <span>Tailwind</span>
+                      <span>TypeScript</span>
+                    </div>
+
+                    <div class="flex items-center gap-8 font-secondary">
+                      <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
+                      <a href="https://tattoo-shop-chi.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="./img/projects/fintech.png" alt="Fintech" class="object-cover w-full min-h-full h-full pointer-events-none">
+
+                <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
+                  <h3 class="text-white text-xl font-bold">Fintech</h3>
+                  <button class="cursor-pointer text-roxo-200 flex items-center gap-2" data-dialog-target="projects" data-dialog-item-target="project-5">
+                    Sobre
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b292ff">
+                      <path d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                    </svg>
+                  </button>
+
+                  <!-- Datas for the dialog -->
+                  <div class="hidden" data-dialog-item-id="project-5">
+                    <img src="./img/projects/fintech.png" alt="Fintech" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+
+                    <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
+                      Este projeto é uma SPA (single page application) focada na visualização de dados financeiros. O objetivo principal é fornecer uma interface intuitiva para o acompanhamento de vendas, status de pagamentos (pago, processando, falha) e métricas de desempenho. A aplicação consome uma API externa para buscar dados de vendas baseados em intervalos de datas customizáveis. Os dados são processados e apresentados através de gráficos dinâmicos, permitindo uma análise rápida da saúde financeira do negócio.
+                    </p>
+
+                    <h4 class="font-secondary text-2xl mb-3">Tecnologias usadas:</h4>
+                    <div class="mb-10 max-w-md flex flex-wrap justify-center gap-3 text-black *:bg-roxo-200 *:px-2.5 *:py-1 *:rounded-full *:font-medium *:text-xs lg:*:text-sm">
+                      <span>React</span>
+                      <span>Vite</span>
+                      <span>React Router DOM</span>
+                      <span>TypeScript</span>
+                      <span>Recharts</span>
+                    </div>
+
+                    <div class="flex items-center gap-8 font-secondary">
+                      <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
+                      <a href="https://fintech-taupe.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="container">
+      <h2 class="text-3xl md:text-6xl text-cinza-300 max-w-3xl max-md:text-center 
+        text-balance mb-14 md:mb-30">Estas são as tecnologias que tenho usado</h2>
+
+      <div id="slide-technologies-wrapper" class="max-lg:select-none relative">
+        <svg class="md:hidden absolute -top-10 right-0 animate-slide-left" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b292ff">
+          <path d="M501-239q-20 13-40.5 1.5T440-273v-167H120q-17 0-28.5-11.5T80-480q0-17 11.5-28.5T120-520h320v-167q0-24 20.5-35.5T501-721l326 207q19 12 19 34t-19 34L501-239Zm19-107 211-134-211-134v268Zm0-134Z" />
+        </svg>
+
+        <div id="slide-technologies" class="flex gap-16 items-start justify-center min-w-max text-white relative">
+          <div class="font-secondary rounded-md p-px bg-linear-to-b from-[#232323] via-[#434343] to-[#232323]">
+            <div class="py-5 pl-8 pr-14 bg-cinza-900 rounded-md">
+              <h4 class="mb-4">Front-end</h4>
+
+              <ul class="space-y-3.5">
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/react.svg" alt="React">
+                  </div>
+                  React JS
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/next.svg" alt="Next">
+                  </div>
+                  Next.JS
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite">
+                  </div>
+                  Vite
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwindcss" />
+                  </div>
+                  Tailwindcss
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/jest.svg" alt="Jest">
+                  </div>
+                  Jest
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/testing-library.svg" alt="React Testing Library">
+                  </div>
+                  React Testing Library
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/figma.svg" alt="Figma">
+                  </div>
+                  Figma
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="font-secondary rounded-md p-px bg-linear-to-b from-[#232323] via-[#434343] to-[#232323]">
+            <div class="py-5 pl-8 pr-14 bg-cinza-900 rounded-md">
+              <h4 class="mb-4">Linguagens</h4>
+
+              <ul class="space-y-3.5">
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/javascript.svg" alt="Javascript">
+                  </div>
+                  Javascript
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/typescript.svg" alt="Typescript">
+                  </div>
+                  Typescript
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="font-secondary rounded-md p-px bg-linear-to-b from-[#232323] via-[#434343] to-[#232323]">
+            <div class="py-5 pl-8 pr-14 bg-cinza-900 rounded-md">
+              <h4 class="mb-4">Back-end</h4>
+
+              <ul class="space-y-3.5">
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="./img/technologies/node.svg" alt="Node">
+                  </div>
+                  Node.js
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+                  </div>
+                  MongoDB
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg" alt="Mongoose" />
+                  </div>
+                  Mongoose
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                      <path fill="#74C0FC" d="M165 208.7L121.7 217.9L121.5 360.3C121.5 386.6 141.3 403.6 167.6 403.6C182.2 403.6 192.9 400.9 198.8 397.7L198.8 363.9C193.1 366.2 165.1 374.4 165.1 348.2L165.1 285L198.8 285L198.8 247.2L165.1 247.2L165 208.7zM254.1 260.3L251.4 247.2L213 247.2L213 400.4L257.3 400.4L257.3 297.3C267.8 283.5 285.5 286.2 291.2 288L291.2 247.2C285.2 245.1 264.5 241.2 254.1 260.3zM346.4 188L301.8 197.5L301.8 233.7L346.4 224.2L346.4 188zM44.9 292.3C44.9 285.4 50.7 282.7 60 282.6C73.5 282.6 90.7 286.7 104.2 294L104.2 252.2C89.5 246.4 74.8 244.1 60.1 244.1C24.1 244.1 .1 262.9 .1 294.3C.1 343.5 67.6 335.5 67.6 356.7C67.6 364.9 60.5 367.6 50.6 367.6C35.9 367.6 16.9 361.5 2 353.4L2 393.4C18.5 400.5 35.2 403.5 50.5 403.5C87.4 403.5 112.8 387.7 112.8 355.7C112.8 302.8 44.9 312.3 44.9 292.3zM640 325.6C640 280.1 618 244.2 575.8 244.2C533.6 244.2 507.9 280.1 507.9 325.3C507.9 378.8 538.2 403.5 581.4 403.5C602.6 403.5 618.5 398.7 630.6 392L630.6 358.6C618.5 364.7 604.6 368.4 587 368.4C569.7 368.4 554.5 362.3 552.5 341.5L639.4 341.5C639.6 339.2 640 329.9 640 325.6zM552.1 308.8C552.1 288.8 564.4 280.4 575.5 280.4C586.4 280.4 598 288.8 598 308.8L552.1 308.8zM439.2 244.2C421.8 244.2 410.6 252.4 404.4 258.1L402.1 247.1L363 247.1L363 451.9L407.4 442.5L407.5 392.3C413.9 397 423.4 403.5 438.9 403.5C470.7 403.5 499.7 380.3 499.7 323.9C499.8 272.3 470.4 244.2 439.2 244.2zM428.6 366.7C418.2 366.7 412 362.9 407.7 358.3L407.4 292.3C412 287.2 418.4 283.5 428.6 283.5C444.8 283.5 456 301.7 456 324.9C456.1 348.8 445.1 366.7 428.6 366.7zM301.9 400.4L346.5 400.4L346.5 247.2L301.9 247.2L301.9 400.4z" />
+                    </svg>
+                  </div>
+                  Stripe
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container mt-28 lg:mt-56">
+      <h2 class="text-3xl md:text-6xl text-cinza-300 max-w-3xl max-md:text-center 
+        text-balance mb-14 md:mb-30">Entre em contato por e-mail</h2>
+
+      <form id="contact-form" class="max-w-md mx-auto flex flex-col">
+        <div class="mb-5 p-px bg-linear-to-r from-[#232323] via-[#434343] to-[#232323] rounded-md shadow-[0_0_20px_#202020]">
+          <input type="text" id="name" name="name" placeholder="Nome" class="input">
+        </div>
+        <div class="mb-5 p-px bg-linear-to-r from-[#232323] via-[#434343] to-[#232323] rounded-md shadow-[0_0_20px_#202020]">
+          <input type="email" id="email" name="reply_to" placeholder="Email" class="input">
+        </div>
+        <div class="p-px bg-linear-to-r from-[#232323] via-[#434343] to-[#232323] rounded-md shadow-[0_0_20px_#202020]">
+          <textarea id="message" name="message" placeholder="Mensagem" rows="6" class="input block resize-none"></textarea>
+        </div>
+
+        <div class="self-center mb-5 mt-12 p-px bg-linear-to-r from-[#232323] via-[#434343] to-[#232323] rounded-md shadow-[0_0_20px_#202020]">
+          <button class="bg-cinza-900 py-5 px-16 text-cinza-400 font-bold cursor-pointer rounded-md">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container mt-28 lg:mt-56 mb-[30px]">
+    <div class="rounded-[100px] bg-cinza-800 px-6 md:px-16 py-6 flex items-center justify-between">
+      <p class="font-secondary md:text-2xl text-cinza-400">Me siga</p>
+
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/PedroHenriqueSampaioNovaes" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-roxo-200 hover:fill-white transition">
+            <path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 14.42 2.87 18.17 6.84 19.5C7.34 19.58 7.5 19.27 7.5 19V17.31C4.73 17.91 4.14 15.97 4.14 15.97C3.68 14.81 3.03 14.5 3.03 14.5C2.12 13.88 3.1 13.9 3.1 13.9C4.1 13.97 4.63 14.93 4.63 14.93C5.5 16.45 6.97 16 7.54 15.76C7.63 15.11 7.89 14.67 8.17 14.42C5.95 14.17 3.62 13.31 3.62 9.5C3.62 8.39 4 7.5 4.65 6.79C4.55 6.54 4.2 5.5 4.75 4.15C4.75 4.15 5.59 3.88 7.5 5.17C8.29 4.95 9.15 4.84 10 4.84C10.85 4.84 11.71 4.95 12.5 5.17C14.41 3.88 15.25 4.15 15.25 4.15C15.8 5.5 15.45 6.54 15.35 6.79C16 7.5 16.38 8.39 16.38 9.5C16.38 13.32 14.04 14.16 11.81 14.41C12.17 14.72 12.5 15.33 12.5 16.26V19C12.5 19.27 12.66 19.59 13.17 19.5C17.14 18.16 20 14.42 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/pedrohsampaionovaes/" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-roxo-200 hover:fill-white transition">
+            <path d="M16 0C16.5304 0 17.0391 0.210714 17.4142 0.585786C17.7893 0.960859 18 1.46957 18 2V16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18H2C1.46957 18 0.960859 17.7893 0.585786 17.4142C0.210714 17.0391 0 16.5304 0 16V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0H16ZM15.5 15.5V10.2C15.5 9.33539 15.1565 8.5062 14.5452 7.89483C13.9338 7.28346 13.1046 6.94 12.24 6.94C11.39 6.94 10.4 7.46 9.92 8.24V7.13H7.13V15.5H9.92V10.57C9.92 9.8 10.54 9.17 11.31 9.17C11.6813 9.17 12.0374 9.3175 12.2999 9.58005C12.5625 9.8426 12.71 10.1987 12.71 10.57V15.5H15.5ZM3.88 5.56C4.32556 5.56 4.75288 5.383 5.06794 5.06794C5.383 4.75288 5.56 4.32556 5.56 3.88C5.56 2.95 4.81 2.19 3.88 2.19C3.43178 2.19 3.00193 2.36805 2.68499 2.68499C2.36805 3.00193 2.19 3.43178 2.19 3.88C2.19 4.81 2.95 5.56 3.88 5.56ZM5.27 15.5V7.13H2.5V15.5H5.27Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DIALOG -->
+  <div data-dialog-id="projects" aria-labelledby="dialog1Title" class="hidden fixed inset-0 text-white px-4 pb-10 overflow-auto">
+    <div class="fixed inset-0 bg-black/85 backdrop-blur-xs -z-10" data-dialog-close></div>
+    <div role="dialog" data-dialog-content-container class="max-w-max mx-auto flex flex-col items-center pt-[5vh] md:pt-[10vh]">
+      <h2 id="dialog1Title" class="text-3xl lg:text-4xl text-center font-medium mb-8">Detalhes deste projeto</h2>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

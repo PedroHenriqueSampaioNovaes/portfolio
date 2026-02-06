@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-cinza-200: #d9d9d9;
+  --color-cinza-300: #c8c8c8;
+  --color-cinza-400: #6f6f6f;
+  --color-cinza-500: #606060;
+  --color-cinza-600: #211f2359;
+  --color-cinza-700: #272727;
+  --color-cinza-800: #131313;
+  --color-cinza-900: #0c0c0d;
+  --color-roxo-200: #b292ff;
+  --color-roxo-900: #0f0b1b;
+
+  --font-primary: 'Raleway', sans-serif;
+  --font-secondary: 'Nunito', sans-serif;
+
+  --animate-slide-left: slideLeft .4s infinite alternate;
+
+  @keyframes slideLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-5px);
+    }
+  }
+}
+
+@layer components {
+  .mask {
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+
+  #mask {
+    -moz-mask-image: url('./img/photo/mask-photo.svg');
+    -webkit-mask-image: url('./img/photo/mask-photo.svg');
+    mask-image: url('./img/photo/mask-photo.svg');
+    -moz-mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -moz-mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+  }
+
+  .input {
+    @apply p-6 bg-cinza-900 w-full placeholder:text-cinza-400 placeholder:font-medium text-white rounded-md;
+  }
+}
+
+@utility container {
+  @apply mx-auto px-4;
+}
+
+[data-control='slide'] {
+  @apply flex max-lg:justify-center mt-5 lg:ml-20 gap-1.5;
+}
+
+[data-control='slide'] > * {
+  @apply bg-cinza-500 w-5 h-3 rounded-full cursor-pointer hover:bg-cinza-300 transition-all;
+}
+
+[data-control='slide'] > *.active {
+  @apply w-16! bg-cinza-200!;
+}
+
+[data-control='slide'] > * > a {
+  @apply block h-full text-transparent select-none;
+}
