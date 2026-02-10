@@ -1,7 +1,9 @@
-import Dialog from './Dialog.js';
-import SlideNav from './Slide.js';
-import debounce from './debounce.js';
-import './send-mail.js';
+import Dialog from './modules/Dialog';
+import SlideNav from './modules/Slide';
+import debounce from './modules/debounce';
+import setupSendMail from './modules/send-mail';
+
+setupSendMail();
 
 const projectSlide = new SlideNav('#slide-wrapper', '#slide', 'left');
 projectSlide.init();

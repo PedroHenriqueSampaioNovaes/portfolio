@@ -15,7 +15,7 @@
   --font-primary: 'Raleway', sans-serif;
   --font-secondary: 'Nunito', sans-serif;
 
-  --animate-slide-left: slideLeft .4s infinite alternate;
+  --animate-slide-left: slideLeft 0.4s infinite alternate;
 
   @keyframes slideLeft {
     from {
@@ -35,9 +35,9 @@
   }
 
   #mask {
-    -moz-mask-image: url('./img/photo/mask-photo.svg');
-    -webkit-mask-image: url('./img/photo/mask-photo.svg');
-    mask-image: url('./img/photo/mask-photo.svg');
+    -moz-mask-image: url('/photo/mask-photo.svg');
+    -webkit-mask-image: url('/photo/mask-photo.svg');
+    mask-image: url('/photo/mask-photo.svg');
     -moz-mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;

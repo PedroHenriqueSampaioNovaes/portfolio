@@ -9,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <link href="./output.css" rel="stylesheet">
+  <link href="/input.css" rel="stylesheet">
   <title>Pedro Henrique - Desenvolvedor Front-End</title>
 </head>
 
 <body class="font-primary bg-cinza-900">
-  <header class="container flex justify-center mt-[30px]">
+  <header class="container flex justify-center mt-7.5">
     <nav class="bg-cinza-600 text-roxo-200 font-medium flex items-center justify-center gap-x-10 gap-y-4 flex-wrap py-4 px-3 rounded-4xl">
       <ul class="flex items-center gap-x-5 md:gap-10 *:*:hover:text-white *:*:transition">
         <li><a href="#sobre">sobre mim</a></li>
@@ -47,13 +47,13 @@
         <h1 class="text-white font-medium text-3xl md:text-6xl mb-6 md:mb-7">Olá! Eu sou o Pedro</h1>
         <p class="text-gray-400 font-light text-balance max-w-lg leading-8">Sou desenvolvedor frontend com formação em desenvolvimento de sistemas e experiência em projetos pessoais. Tenho conhecimento sólido em diversas ferramentas, sendo as principais: Typescript e Next.js. Gosto de criar interfaces modernas, responsivas e com foco na experiência do usuário. Também possuo conhecimento em testes automatizados e boas práticas de desenvolvimento.</p>
         <div class="flex max-md:flex-col items-center max-md:justify-center gap-7 mt-10 font-secondary">
-          <a href="./curriculo/curriculo.docx" download="dev-PedroHenrique-frontend" class="bg-white py-3 px-10 rounded-4xl font-bold 
+          <a href="/curriculo/curriculo.docx" download="dev-PedroHenrique-frontend" class="bg-white py-3 px-10 rounded-4xl font-bold 
           hover:bg-cinza-200 transition md:max-lg:text-center">Download Currículo</a>
           <a href="#projetos" class="py-3 px-10 rounded-4xl text-roxo-200 font-medium hover:text-white transition md:max-lg:text-center">Veja projetos</a>
         </div>
       </div>
 
-      <img src="./img/photo/rosto.png" alt="" id="mask" class="max-md:w-32">
+      <img src="/photo/rosto.png" alt="" id="mask" class="max-md:w-32">
     </section>
 
     <section id="projetos" class="my-24 lg:py-30 lg:mt-40 relative">
@@ -70,8 +70,8 @@
         <div id="slide-wrapper-controls">
           <div id="slide-wrapper" class="overflow-hidden">
             <ul id="slide" class="relative flex gap-7 lg:gap-10 *:shrink-0 select-none will-change-transform">
-              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
-                <img src="./img/projects/bioreino.png" alt="Bioreino" class="object-cover w-full min-h-full h-full pointer-events-none">
+              <li class="w-75 h-47.5 lg:w-100 lg:h-70 rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="/projects/bioreino.png" alt="Bioreino" class="object-cover w-full min-h-full h-full pointer-events-none">
 
                 <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
                   <h3 class="text-white text-xl font-bold">Bioreino</h3>
@@ -84,7 +84,7 @@
 
                   <!-- Datas for the dialog -->
                   <div class="hidden" data-dialog-item-id="project-1">
-                    <img src="./img/projects/bioreino.png" alt="Bioreino" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+                    <img src="/projects/bioreino.png" alt="Bioreino" class="w-75 h-47.5 rounded-[60px] mb-8 object-cover">
 
                     <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
                       Plataforma de cursos voltados à biologia. Possui apresentação do que é a Bioreino; Login; Esqueceu a Senha; Sistema de envio de e-mail; Domínio próprio (bioreino.com) e (bioreino.com.br); Cadastro com Planos de assinatura (scholar e professional) com sistema de pagamento integrado e que libera acesso a determinados cursos; Dashboard para selecionar o curso que deseja assistir, além de ter um lembrete da última aula assistida.
@@ -111,13 +111,13 @@
 
                     <div class="flex items-center gap-8 font-secondary">
                       <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
-                      <a href="https://www.bioreino.com.br" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                      <a href="https://www.bioreino.com.br" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
                     </div>
                   </div>
                 </div>
               </li>
-              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
-                <img src="./img/projects/adopt-a-pet.png" alt="Adopt a Pet" class="object-cover w-full min-h-full h-full pointer-events-none">
+              <li class="w-75 h-47.5 lg:w-100 lg:h-70 rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="/projects/adopt-a-pet.png" alt="Adopt a Pet" class="object-cover w-full min-h-full h-full pointer-events-none">
 
                 <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
                   <h3 class="text-white text-xl font-bold">Adopt a Pet</h3>
@@ -130,7 +130,7 @@
 
                   <!-- Datas for the dialog -->
                   <div class="hidden" data-dialog-item-id="project-4">
-                    <img src="./img/projects/adopt-a-pet.png" alt="Adopt a Pet" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+                    <img src="/projects/adopt-a-pet.png" alt="Adopt a Pet" class="w-75 h-47.5 rounded-[60px] mb-8 object-cover">
 
                     <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
                       Adopt a Pet é um projeto pessoal que funciona como um hub de adoção onde usuários podem cadastrar animais, gerenciar seus perfis e explorar um feed interativo de pets disponíveis. O sistema conta com fluxos de autenticação, upload de imagens e um painel de controle personalizado para cada usuário, além de um sistema de rolagem infinita usando cursor-based pagination.
@@ -157,13 +157,13 @@
 
                     <div class="flex items-center gap-8 font-secondary">
                       <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
-                      <a href="https://petshop-web-five.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                      <a href="https://petshop-web-five.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
                     </div>
                   </div>
                 </div>
               </li>
-              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
-                <img src="./img/projects/barberpro.png" alt="BarberPRO" class="object-cover w-full min-h-full h-full pointer-events-none">
+              <li class="w-75 h-47.5 lg:w-100 lg:h-70 rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="/projects/barberpro.png" alt="BarberPRO" class="object-cover w-full min-h-full h-full pointer-events-none">
 
                 <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
                   <h3 class="text-white text-xl font-bold">Barber PRO</h3>
@@ -176,7 +176,7 @@
 
                   <!-- Datas for the dialog -->
                   <div class="hidden" data-dialog-item-id="project-2">
-                    <img src="./img/projects/barberpro.png" alt="Bioreino" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+                    <img src="/projects/barberpro.png" alt="Bioreino" class="w-75 h-47.5 rounded-[60px] mb-8 object-cover">
 
                     <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
                       Sistema web completo para barbearias, desde cadastro da barbearia, login, sistema de agendamento de cliente, cadastro de barbeiros, agenda de cortes, sistema de assinatura para barbearias com plano gratuito e plano pago que libera funcionalidades.
@@ -198,13 +198,13 @@
 
                     <div class="flex items-center gap-8 font-secondary">
                       <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
-                      <a href="https://sistema-barbearia-web-roan.vercel.app/login" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                      <a href="https://sistema-barbearia-web-roan.vercel.app/login" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
                     </div>
                   </div>
                 </div>
               </li>
-              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
-                <img src="./img/projects/tatuador.png" alt="Sandro Luz Tattoo Shop" class="object-cover w-full min-h-full h-full pointer-events-none">
+              <li class="w-75 h-47.5 lg:w-100 lg:h-70 rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="/projects/tatuador.png" alt="Sandro Luz Tattoo Shop" class="object-cover w-full min-h-full h-full pointer-events-none">
 
                 <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
                   <h3 class="text-white text-xl font-bold">Sandro Luz Tattoo Shop</h3>
@@ -217,7 +217,7 @@
 
                   <!-- Datas for the dialog -->
                   <div class="hidden" data-dialog-item-id="project-3">
-                    <img src="./img/projects/tatuador.png" alt="Sandro Luz Tattoo Shop" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+                    <img src="/projects/tatuador.png" alt="Sandro Luz Tattoo Shop" class="w-75 h-47.5 rounded-[60px] mb-8 object-cover">
 
                     <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
                       Este projeto web serve como a vitrine digital para o tatuador fictício Sandro Luz. A aplicação foi construída com foco em design visual e performance, utilizando as tecnologias mais recentes do ecossistema React. A interface apresenta um layout sofisticado, destacando a arte e a identidade da marca, além de fornecer acesso fácil aos serviços e informações de contato
@@ -233,13 +233,13 @@
 
                     <div class="flex items-center gap-8 font-secondary">
                       <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
-                      <a href="https://tattoo-shop-chi.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                      <a href="https://tattoo-shop-chi.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
                     </div>
                   </div>
                 </div>
               </li>
-              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
-                <img src="./img/projects/fintech.png" alt="Fintech" class="object-cover w-full min-h-full h-full pointer-events-none">
+              <li class="w-75 h-47.5 lg:w-100 lg:h-70 rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="/projects/fintech.png" alt="Fintech" class="object-cover w-full min-h-full h-full pointer-events-none">
 
                 <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
                   <h3 class="text-white text-xl font-bold">Fintech</h3>
@@ -252,7 +252,7 @@
 
                   <!-- Datas for the dialog -->
                   <div class="hidden" data-dialog-item-id="project-5">
-                    <img src="./img/projects/fintech.png" alt="Fintech" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+                    <img src="/projects/fintech.png" alt="Fintech" class="w-75 h-47.5 rounded-[60px] mb-8 object-cover">
 
                     <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
                       Este projeto é uma SPA (single page application) focada na visualização de dados financeiros. O objetivo principal é fornecer uma interface intuitiva para o acompanhamento de vendas, status de pagamentos (pago, processando, falha) e métricas de desempenho. A aplicação consome uma API externa para buscar dados de vendas baseados em intervalos de datas customizáveis. Os dados são processados e apresentados através de gráficos dinâmicos, permitindo uma análise rápida da saúde financeira do negócio.
@@ -269,13 +269,13 @@
 
                     <div class="flex items-center gap-8 font-secondary">
                       <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
-                      <a href="https://fintech-taupe.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                      <a href="https://fintech-taupe.vercel.app/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
                     </div>
                   </div>
                 </div>
               </li>
-              <li class="w-[300px] h-[190px] lg:w-[400px] lg:h-[280px] rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
-                <img src="./img/projects/stranger-things.png" alt="Stranger Things" class="object-cover w-full min-h-full h-full pointer-events-none">
+              <li class="w-75 h-47.5 lg:w-100 lg:h-70 rounded-[60px] overflow-hidden grid grid-rows-[4fr_1fr]">
+                <img src="/projects/stranger-things.png" alt="Stranger Things" class="object-cover w-full min-h-full h-full pointer-events-none">
 
                 <div class="bg-cinza-800 font-secondary flex items-center justify-between px-8">
                   <h3 class="text-white text-xl font-bold">Stranger Things</h3>
@@ -288,7 +288,7 @@
 
                   <!-- Datas for the dialog -->
                   <div class="hidden" data-dialog-item-id="project-6">
-                    <img src="./img/projects/stranger-things.png" alt="Stranger Things" class="w-[300px] h-[190px] rounded-[60px] mb-8 object-cover">
+                    <img src="/projects/stranger-things.png" alt="Stranger Things" class="w-75 h-47.5 rounded-[60px] mb-8 object-cover">
 
                     <p id="dialog1Desc" class="mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed">
                       Uma landing page temática e imersiva inspirada no universo de Stranger Things. O projeto recria a atmosfera da série através de um design rico em detalhes visuais, apresentando o fascinante e perigoso 'Mundo Invertido'. A interface conta com seções interativas sobre a trama, onde você poderá apreciar o fascinante design alternando entre Hawkins e o 'Mundo Invertido'.
@@ -304,7 +304,7 @@
 
                     <div class="flex items-center gap-8 font-secondary">
                       <button data-dialog-close class="cursor-pointer py-2 px-3 bg-red-500 rounded-full">Fechar</button>
-                      <a href="https://pedrohenriquesampaionovaes.github.io/stranger-things-mundo-invertido/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="./img/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
+                      <a href="https://pedrohenriquesampaionovaes.github.io/stranger-things-mundo-invertido/" target="_blank" class="py-2 px-3 flex items-center gap-2.5 text-roxo-200">Ver Projeto <img src="/open_in_new_tab.svg" alt="Abrir em nova aba"></a>
                     </div>
                   </div>
                 </div>
@@ -332,13 +332,13 @@
               <ul class="space-y-3.5">
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/react.svg" alt="React">
+                    <img src="/technologies/react.svg" alt="React">
                   </div>
                   React JS
                 </li>
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/next.svg" alt="Next">
+                    <img src="/technologies/next.svg" alt="Next">
                   </div>
                   Next.JS
                 </li>
@@ -356,13 +356,13 @@
                 </li>
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/jest.svg" alt="Jest">
+                    <img src="/technologies/jest.svg" alt="Jest">
                   </div>
                   Jest
                 </li>
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/testing-library.svg" alt="React Testing Library">
+                    <img src="/technologies/testing-library.svg" alt="React Testing Library">
                   </div>
                   React Testing Library
                 </li>
@@ -374,7 +374,7 @@
                 </li>
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/figma.svg" alt="Figma">
+                    <img src="/technologies/figma.svg" alt="Figma">
                   </div>
                   Figma
                 </li>
@@ -389,13 +389,13 @@
               <ul class="space-y-3.5">
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/javascript.svg" alt="Javascript">
+                    <img src="/technologies/javascript.svg" alt="Javascript">
                   </div>
                   Javascript
                 </li>
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/typescript.svg" alt="Typescript">
+                    <img src="/technologies/typescript.svg" alt="Typescript">
                   </div>
                   Typescript
                 </li>
@@ -410,7 +410,7 @@
               <ul class="space-y-3.5">
                 <li class="flex items-center gap-4">
                   <div class="size-8 bg-cinza-700 rounded-full flex items-center justify-center p-1">
-                    <img src="./img/technologies/node.svg" alt="Node">
+                    <img src="/technologies/node.svg" alt="Node">
                   </div>
                   Node.js
                 </li>
@@ -463,7 +463,7 @@
     </section>
   </main>
 
-  <footer class="container mt-28 lg:mt-56 mb-[30px]">
+  <footer class="container mt-28 lg:mt-56 mb-7.5">
     <div class="rounded-[100px] bg-cinza-800 px-6 md:px-16 py-6 flex items-center justify-between">
       <p class="font-secondary md:text-2xl text-cinza-400">Me siga</p>
 
@@ -491,9 +491,7 @@
   </div>
 
   <!-- SCRIPTS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-  <script type="module" src="./js/script.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
