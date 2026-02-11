@@ -90,7 +90,7 @@ function createCardDetails(project, i, technologies) {
 
   const description = document.createElement('p');
   description.className =
-    'mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed';
+    'mb-8 max-w-xl min-h-14 max-h-40 overflow-y-auto text-balance text-center text-cinza-300 md:text-lg leading-relaxed scheme-dark';
   description.textContent = project.description;
   containerDetails.appendChild(description);
 
