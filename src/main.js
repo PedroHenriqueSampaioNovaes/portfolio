@@ -1,9 +1,12 @@
 import Dialog from './modules/Dialog';
 import SlideNav from './modules/Slide';
 import debounce from './modules/debounce';
+import renderProjects from './modules/renderProjects';
 import setupSendMail from './modules/send-mail';
 
 setupSendMail();
+
+await renderProjects();
 
 const projectSlide = new SlideNav('#slide-wrapper', '#slide', 'left');
 projectSlide.init();

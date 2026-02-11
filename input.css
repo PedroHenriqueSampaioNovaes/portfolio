@@ -16,6 +16,7 @@
   --font-secondary: 'Nunito', sans-serif;
 
   --animate-slide-left: slideLeft 0.4s infinite alternate;
+  --animate-skeleton: skeleton 1.5s infinite linear;
 
   @keyframes slideLeft {
     from {
@@ -23,6 +24,15 @@
     }
     to {
       transform: translateX(-5px);
+    }
+  }
+
+  @keyframes skeleton {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: -200%;
     }
   }
 }

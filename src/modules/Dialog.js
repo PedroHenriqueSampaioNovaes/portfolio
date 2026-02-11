@@ -22,8 +22,8 @@ export default class Dialog {
     this.renderDialogContents(contentItem);
   }
 
-  close(event) {
-    if (event.target.hasAttribute('data-dialog-close')) {
+  close({ target }) {
+    if (target.hasAttribute('data-dialog-close')) {
       this.dialog.classList.replace('block', 'hidden');
     }
   }
